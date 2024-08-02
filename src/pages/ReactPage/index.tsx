@@ -28,7 +28,7 @@ export const ReactPage = () => {
   return (
     <>
       <Header />
-      <Flex color="white" >
+      <Flex >
         <Box w="300px">
           {LinkItems.map((link) => (
             <NavItem key={link.name}>{link.name}</NavItem>

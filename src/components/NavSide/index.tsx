@@ -18,6 +18,7 @@ export const NavItem = ({ icon, children, ...rest }: any) => {
           role="group"
           cursor="pointer"
           bg='gray.700'
+          color='white'
           style={{marginLeft:"0px"}}
           _hover={{
             bg: 'cyan.400',
