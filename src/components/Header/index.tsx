@@ -26,6 +26,8 @@ import {
   SunIcon,
 } from '@chakra-ui/icons'
 import { useNavigate } from 'react-router-dom'
+import { Image } from '@chakra-ui/react'
+import logo from '../../assets/X1.png';
 
 export function Header() {
   const { isOpen, onToggle } = useDisclosure()
@@ -65,7 +67,7 @@ export function Header() {
             color={useColorModeValue('gray.800', 'white')}
             onClick={goToHomePage}
             >
-            Logo
+            <Image src={logo} boxSize="25px"/>
           </Text>
 
           <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
