@@ -2,7 +2,6 @@ import {
   Box,
   Button,
   Card,
-  CardBody,
   CardFooter,
   CardHeader,
   Container,
@@ -24,11 +23,11 @@ export const Presentation = () => {
   return (
     <>
       <Header />
-      <Container>
+      <Container maxW='4xl'>
         <Box>
           <Flex minWidth="max-content" alignItems="center" gap="2">
             <Box p="2">
-              <Heading size="md">Web Developer</Heading>
+              <Heading size="md">Web Development</Heading>
             </Box>
             <Spacer />
           </Flex>
@@ -43,6 +42,69 @@ export const Presentation = () => {
             </CardHeader>
             <CardFooter>
               <Button onClick={goToReact}>View here</Button>
+            </CardFooter>
+          </Card>
+        </SimpleGrid>
+        <Box>
+          <Flex minWidth="max-content" alignItems="center" gap="2">
+            <Box p="2">
+              <Heading size="md">Language</Heading>
+            </Box>
+            <Spacer />
+          </Flex>
+        </Box>
+        <SimpleGrid
+          spacing={4}
+          templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
+        >
+          <Card>
+            <CardHeader>
+              <Heading size="md"> Javascript</Heading>
+            </CardHeader>
+            <CardFooter>
+              <Button disabled>TBC</Button>
+            </CardFooter>
+          </Card>
+        </SimpleGrid>
+        <Box>
+          <Flex minWidth="max-content" alignItems="center" gap="2">
+            <Box p="2">
+              <Heading size="md">Database</Heading>
+            </Box>
+            <Spacer />
+          </Flex>
+        </Box>
+        <SimpleGrid
+          spacing={4}
+          templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
+        >
+          <Card>
+            <CardHeader>
+              <Heading size="md"> SQL</Heading>
+            </CardHeader>
+            <CardFooter>
+              <Button >TBC</Button>
+            </CardFooter>
+          </Card>
+        </SimpleGrid>
+        <Box>
+          <Flex minWidth="max-content" alignItems="center" gap="2">
+            <Box p="2">
+              <Heading size="md">DSA</Heading>
+            </Box>
+            <Spacer />
+          </Flex>
+        </Box>
+        <SimpleGrid
+          spacing={4}
+          templateColumns="repeat(auto-fill, minmax(200px, 1fr))"
+        >
+          <Card>
+            <CardHeader>
+              <Heading size="md"> Array</Heading>
+            </CardHeader>
+            <CardFooter>
+              <Button >TBC</Button>
             </CardFooter>
           </Card>
         </SimpleGrid>

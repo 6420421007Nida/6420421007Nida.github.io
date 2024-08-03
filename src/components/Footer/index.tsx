@@ -35,9 +35,9 @@ export function Footer() {
             <Box>
             <Image src={Logo} boxSize="25px"/>
             </Box>
-            <Text fontSize={'sm'}>© 2022 Chakra Templates. All rights reserved</Text>
+            <Text fontSize={'sm'}>© 2024 The X1 dev. All rights reserved</Text>
           </Stack>
-          <Stack align={'flex-start'}>
+          {/* <Stack align={'flex-start'}>
             <ListHeader>Product</ListHeader>
             <Box as="a" href={'#'}>
               Overview
@@ -108,7 +108,7 @@ export function Footer() {
             <Box as="a" href={'#'}>
               LinkedIn
             </Box>
-          </Stack>
+          </Stack> */}
         </SimpleGrid>
       </Container>
     </Box>
