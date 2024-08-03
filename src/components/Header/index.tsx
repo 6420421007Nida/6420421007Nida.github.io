@@ -77,7 +77,8 @@ export function Header() {
             fontFamily={"heading"}
             cursor="pointer"
             color={useColorModeValue("gray.800", "white")}
-          ></Text>
+            style={{marginLeft:"10px"}}
+          >The X1 Dev</Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
             <DesktopNav />
