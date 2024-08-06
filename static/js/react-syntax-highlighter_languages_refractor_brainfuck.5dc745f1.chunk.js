@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_chakra_app_2=self.webpackChunkmy_chakra_app_2||[]).push([[9101],{2644:a=>{function e(a){a.languages.brainfuck={pointer:{pattern:/<|>/,alias:"keyword"},increment:{pattern:/\+/,alias:"inserted"},decrement:{pattern:/-/,alias:"deleted"},branching:{pattern:/\[|\]/,alias:"important"},operator:/[.,]/,comment:/\S+/}}a.exports=e,e.displayName="brainfuck",e.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_brainfuck.5dc745f1.chunk.js.map
