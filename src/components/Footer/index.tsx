@@ -1,6 +1,6 @@
 'use client'
 
-import { ReactNode } from 'react'
+// import { ReactNode } from 'react'
 
 import {
   Box,
@@ -14,13 +14,13 @@ import {
 import Logo from '../../assets/X1.png'
 
 
-const ListHeader = ({ children }: { children: ReactNode }) => {
-  return (
-    <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
-      {children}
-    </Text>
-  )
-}
+// const ListHeader = ({ children }: { children: ReactNode }) => {
+//   return (
+//     <Text fontWeight={'500'} fontSize={'lg'} mb={2}>
+//       {children}
+//     </Text>
+//   )
+// }
 
 export function Footer() {
   return (
